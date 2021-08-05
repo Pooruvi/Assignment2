@@ -1,0 +1,196 @@
+.MainContainer{
+    
+    margin-left: 300px;
+    width:830px;
+    height:640px;
+
+    /* display:flex; */
+    
+    /* border: 1px solid black;
+*/
+filter: blur(8px);
+}
+.Headings-Container{
+    width:830px;
+    height:150px;
+    display:flex;
+}
+
+.Task-List-Container{
+
+    width:415px;
+    height:150px;
+    /* border:1px solid blue; */
+    display:flex;
+   
+}
+
+.Task{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 70px;
+}
+
+.Lists{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 70px ;
+    color: gray;
+}
+
+.Add-List-Container{
+
+    width:415px;
+    height:150px;
+    /* border:1px solid green; */
+    display:flex;
+  justify-content: flex-end;
+
+}
+
+.AddList{
+
+    margin-top: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+    color: gray;
+
+}
+
+.Cards-Container{
+    width:830px;
+    height:490px;
+    /* border:1px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Cards{
+
+    border:1px solid #ec3e13;
+    width:235px;
+    height:370px;
+    border-radius: 12px;
+    /* box-shadow: 4px 4px 10px gray; */
+}
+
+.Card-head{
+    width:235px;
+    height:85px;
+    /* border:1px solid peru; */
+    display:flex;
+    justify-content: center;
+    
+}
+
+.Content1{
+    margin-top: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #ec3e13;
+    font-size: 30px;
+}
+
+.Line{
+    width:235px;
+    height:4px;
+    /* border: 1px solid black; */
+    display:flex;
+    justify-content: flex-end;
+}
+
+.Content2{
+    width:200px;
+    height:2px;
+    background-color: gray;
+}
+
+.Strike-Content{
+    width:235px;
+    height:80px;
+    /* border:1px solid black; */
+    display: flex;
+    justify-content: center;
+}
+
+.Content3{
+    margin-top: 25px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color:#ec3e13;
+    text-decoration: 3px solid line-through tomato;
+}
+
+.check-Box{
+    width:235px;
+    height:100px;
+    /* border: 1px solid black; */
+}
+
+.Content4{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: black; 
+}
+
+input[type="checkbox"]{
+    margin-top: 5px;
+    margin-left: 15px;
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+  }
+
+
+  .Over-Container{
+   
+    width:500px;
+    height:230px;
+    
+  position: absolute;
+   bottom: 280px;
+   left:430px;
+    border: 1px solid 	#ec3e13;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 3px 3px 10px gray;
+  }
+
+  .Input{
+    width: 300px;
+height: 32px;
+margin-left: 95px;
+margin-top: 25px;
+border-radius: 7px;
+border:1px solid 	#ec3e13;
+box-shadow: 2px 2px 10px gray;
+
+}
+.AddButton {
+   
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+    font-size: 19px;
+    margin-top: 25px;
+    border-radius: 100px;
+   color: white;
+   background-color:	#ec3e13;
+   border: 2px solid 	#ec3e13;
+}
+.New-Task-Container{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+    color: 	#ec3e13;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    font-size: 400;
+}
+
+

@@ -1,0 +1,206 @@
+.Main-Box{
+    margin-top : 30px;
+    margin-left: 250px;
+    margin-right: 230px;
+    margin-bottom: 30px;
+    height:627px;
+    width:800px;
+    /* opacity: 0.3; */
+    filter: blur(7px);
+    
+    
+   /* background-color: lightcoral; */
+}
+
+.Head{
+    display: flex;
+    align-items: center;
+    width:800px;
+    height:100px;
+    /* background-color: lightgray; */
+}
+
+.line{
+    width: 230px;
+    height:2px;
+    background-color: gray;
+}
+
+.Content1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+
+}
+
+.Arrow_Content{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.content2{
+    margin-left: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: grey;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+/* .Container-Card{
+    height:450px;
+    width:780px;
+    border: black;
+} */
+
+.Container-Card{
+    display:flex;
+    justify-content: center;
+    width:795px;
+    height: 458px;
+    /* border:3px solid green; */
+
+}
+
+.Card{
+    margin-top: 50px;
+    border-radius: 12px;
+    width: 450px;
+    height:400px;
+    border:1px solid 	#ec3e13;
+    box-shadow: 5px 5px 12px lightgray;
+}
+
+.Card-Head{
+    display: flex;
+    width:450px;
+    height:80px;
+    /* border:2px solid black; */
+    justify-content: center;
+  
+}
+
+.Content3{
+    
+    font-family: 'Roboto', sans-serif;
+    font-size:30px;
+    font-weight: 400;
+    margin-top: 40px;
+    color: 	#ec3e13;
+}
+
+.Line-Container{
+    width:450px;
+    height:15px;
+    /* border:1px solid blueviolet; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Content4{
+    margin-top: 10px;;
+    width:310px;
+    height:2px;
+    background-color:gray;
+
+}
+
+.Completed-task-container{
+    width:450px;
+    height:75px;
+    /* border: 1px solid chocolate; */
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.Content5{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: 	#ec3e13;
+    text-decoration: 3px solid line-through;
+
+}
+
+.pending-task-container{
+    width:450px;
+    height:85px;
+    /* border : 1px solid greenyellow; */
+    display:flex;
+justify-content: center;
+display:flex;
+
+}
+
+input[type="checkbox"]{
+    margin-top: 20px;
+    width: 20px; /*Desired width*/
+    height: 20px; /*Desired height*/
+  }
+
+.check-box{
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+.Bottom-icon-container{
+    height:110px;
+    width:450px;
+    /* border: 1px solid lavenderblush; */
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.Over-Container{
+   
+    width:500px;
+    height:230px;
+    
+  position: absolute;
+   bottom: 150px;
+   left:400px;
+    border: 1px solid 	#ec3e13;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 3px 3px 10px gray;
+  }
+
+  .Input{
+    width: 300px;
+height: 32px;
+margin-left: 95px;
+margin-top: 25px;
+border-radius: 7px;
+border:1px solid 	#ec3e13;
+box-shadow: 2px 2px 10px gray;
+
+}
+.AddButton {
+   
+    width: 100px;
+    height: 50px;
+    margin-left: 200px;
+    font-size: 19px;
+    margin-top: 25px;
+    border-radius: 100px;
+   color: white;
+   background-color:	#ec3e13;
+   border: 2px solid 	#ec3e13;
+}
+.New-Task-Container{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    
+    color: 	#ec3e13;
+    text-align: center;
+    margin-top: 40px;
+    font-size: 22px;
+    font-size: 400;
+}
+
+
